@@ -2,7 +2,7 @@ import Image from "next/image";
 import mobile from "../assets/mobile.png";
 import bottom from "../assets/backgroundBottom.svg";
 import work from "../assets/work.png";
-import Todo from "../components/ToDo";
+import Todo from "../components/Todo";
 export default function Home() {
   return (
     <>

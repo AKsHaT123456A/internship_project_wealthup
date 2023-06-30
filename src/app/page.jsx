@@ -6,7 +6,7 @@ import Todo from "../components/Todo";
 export default function Home() {
   return (
     <>
-      <section className="w-full overflow-scroll bg-gradient-to-r from-blue-800 to-teal-500">
+      <section className="w-full overflow-scroll  bg-bgImg">
         <main className="flex flex-col items-center justify-between pt-24 h-[569]">
 
           {/* Header */}

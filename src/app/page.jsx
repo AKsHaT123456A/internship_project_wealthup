@@ -23,7 +23,7 @@ export default function Home() {
             </button>
           </div>
           <div className="flex justify-between mt-10">
-            <ul className="text-3xl list-inside mt-28 designList">
+            <ul className="text-3xl list-inside mt-28 designList text-white">
               <li className="mb-10 list">
                 Expected Retirement Age <br />
                 <hr
@@ -47,7 +47,7 @@ export default function Home() {
               height={790}
               className="relative left-16"
             />
-            <ul className="text-3xl list-inside mt-28 relative -left-12 designList">
+            <ul className="text-3xl list-inside mt-28 relative -left-12 designList  text-white">
               <li className="mb-10 list">
                 Personalised Road Map <br />
                 <hr
@@ -85,13 +85,13 @@ export default function Home() {
               <Image src={work} width={497} height={884} alt="icons" />
             </div>
             <div className="flex text-3xl relative -top-16 left-12">
-              <span className="px-4">
+              <span className="px-4  text-white" >
                 Answer few <br /> questions
               </span>
-              <span className="px-4">
+              <span className="px-4  text-white">
                 Register using <br /> phone and OTP
               </span>
-              <span className="px-4 ">
+              <span className="px-4  text-white">
                 Get report and <br /> personal roadmap
               </span>
             </div>

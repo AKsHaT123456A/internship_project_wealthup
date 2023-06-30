@@ -48,7 +48,7 @@ const Todo = () => {
         />
         <input
           type="text"
-          className="w-full border rounded py-2 px-4  transition duration-300 ease-in-out hover:bg-gray-200 hover:shadow-md"
+          className="w-full border rounded py-2 px-4  transition duration-300 ease-in-out hover:bg-gray-200 hover:shadow-md text-black"
           placeholder="Search Todo"
           value={searchTerm}
           onChange={handleSearch}
@@ -65,7 +65,7 @@ const Todo = () => {
           <ul>
             {filteredTodos.map((task, index) => (
               <div className="flex bg-slate-100 m-4 py-4 pl-12 pr-4 rounded-md" key={index}>
-                <li className={`self-center font-semibold pr-10 mr-6 ${task.completed ? "text-gray-500 line-through" : ""}`}>{task.text}</li>
+                <li className={`self-center font-semibold pr-10 mr-6 text-black ${task.completed ? "text-gray-500 line-through" : ""}`}>{task.text}</li>
                 <button
                   onClick={() => {
                     deleteTasks(index);
